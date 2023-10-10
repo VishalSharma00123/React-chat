@@ -1,0 +1,55 @@
+/* Style for the parent container holding both buttons */
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 6rem; /* Add space between the buttons */
+}
+
+.flex li {
+  list-style: none;
+  padding: 75px;
+  font-size: 24px;
+}
+
+.flex li:nth-child(1) {
+  width: 117px;
+  color: #2ecc71;
+}
+.flex li:nth-child(2) {
+  width: 117px;
+  color: #2ecc71;
+}
+.nav {
+  text-decoration: none;
+  color: #2ecc71;
+}
+/* Style for each button */
+.container {
+  max-width: 300px; /* Increase the maximum width for each button */
+  background-color: #fff;
+  border-radius: 5px;
+  color: #2ecc71;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center; /* Center the text within each button */
+  text-decoration: none; /* Remove underlines from links */
+  color: #333; /* Change font color */
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 18px; /* Increase font size */
+  font-weight: bold; /* Apply font style */
+  text-transform: uppercase; /* Change font style to uppercase */
+  font-family: "Lato", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+img {
+  padding-bottom: 2rem;
+  width: 5rem;
+}
